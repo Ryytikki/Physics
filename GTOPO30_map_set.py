@@ -62,11 +62,6 @@ class GTOPO30_Map_Set():
 					
 					for x in range (0, 40):
 						for y in range(0, 50):
-							array = np.zeros((120,120))
-							for a in range(0, 120):
-								for b in range(0,120):
-									array[a][b] = height[((a + 120 * y) * 4800) + b + 120 * x]
-							
 							self.full_data_set[r_counter + y][c_counter + x] = np.std(array)
 			
 		print("Total time: %f" %((time.time() - t) / 60))
