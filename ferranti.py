@@ -1,3 +1,16 @@
+##################################################
+# Ferranti.py - Single file map generator	 #
+#						 #
+# This file is designed to extract and display   #
+# data from a 1x1 degree file as a topological 	 #
+# map. After the creation of my map_set script,  #
+# it remained largly unused but I still keep it  #
+# for demonstration purposes			 #
+##################################################
+
+
+
+
 import struct, string, array, os
 import numpy as np
 import matplotlib
