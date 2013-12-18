@@ -43,8 +43,6 @@ class Ferranti_Map_Set():
 			# And each row
 			for row_block in range(40, 41):#self.lat[1],1):
 			
-				# Log time for later printing
-				# File existance check. If the file doesnt exist, it just skips that chunk of array values, hence populating it with 0s earlier
 				if column < 0:
 					c_text = "W%s" % str(1000 - column)[1:]
 				else:
